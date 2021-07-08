@@ -29,7 +29,7 @@ fs.readdir("./commands/", (err, files) => {
 })
 bot.on("ready", async () => {
   console.log(`${bot.user.username} is online on ${bot.guilds.size} servers!`);
-  bot.user.setActivity(`In Development`);
+  bot.user.setActivity(`by sizar`);///// دیسکرێپشنی بۆت
   bot.user.setStatus('online');
 
   bot.on("message", async message => {
@@ -58,4 +58,4 @@ bot.on("ready", async () => {
   )})
 
 
-bot.login("Discord Token");
+bot.login("TOKEN");
